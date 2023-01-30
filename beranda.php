@@ -888,6 +888,12 @@
       </div>
       <!-- End foto -->
 
+      <!-- Kalender Pendidikan --> 
+      <!-- end Kalender Pendidikan --> 
+
+      <!-- Kontak --> 
+     <!-- end Kontak --> 
+
       <?php 
           include('header.php')
       ?>

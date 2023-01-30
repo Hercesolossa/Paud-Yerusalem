@@ -1,12 +1,12 @@
 
-          <?php 
+    <?php 
           include('header.php')
-          ?>
+    ?>
 
        <!-- Key Events -->
        <div class="container g-pt-50 g-pb-70">
         <div class="d-flex justify-content-lg-between align-items-lg-center g-mb-30">
-          <h2>Agenda Kegiatan</h2>
+          <h1>kalender pendidikan TK-Paud Yerusalem Ayamaru Tahun 2022-2023 </h1>
           <a class="u-link-v5 g-color-primary g-color-main--hover" href="#">Selengkapnya <i class="g-font-size-13 g-pos-rel g-top-3 material-icons">arrow_forward</i></a>
         </div>
 
@@ -126,77 +126,3 @@
       <?php 
       include('footer.php')
       ?>
-
-      <!-- Go to Top -->
-      <a class="js-go-to u-go-to-v1 u-shadow-v32 g-width-40 g-height-40 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-bg-main--focus g-font-size-12 rounded-circle" href="#" data-type="fixed" data-position='{
-       "bottom": 15,
-       "right": 15
-     }' data-offset-top="400"
-        data-compensation="#js-header"
-        data-show-effect="slideInUp"
-        data-hide-effect="slideInDown">
-        <i class="hs-icon hs-icon-arrow-top"></i>
-      </a>
-      <!-- End Go to Top -->
-    </main>
-
-    <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-    <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-
-    <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/helpers/hs.height-calc.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.popup.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
-
-    <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
-
-    <!-- JS Plugins Init. -->
-    <script>
-      $(document).on('ready', function () {
-        // initialization of header
-        $.HSCore.components.HSHeader.init($('#js-header'));
-        $.HSCore.helpers.HSHamburgers.init('.hamburger');
-
-        // initialization of HSMegaMenu component
-        $('.js-mega-menu').HSMegaMenu({
-          event: 'hover',
-          pageContainer: $('.container'),
-          breakpoint: 991
-        });
-
-        // initialization of HSDropdown component
-        $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
-          afterOpen: function () {
-            $(this).find('input[type="search"]').focus();
-          }
-        });
-
-        // initialization of carousel
-        $.HSCore.components.HSCarousel.init('[class*="js-carousel"]');
-
-        // initialization of header's height equal offset
-        $.HSCore.helpers.HSHeightCalc.init();
-
-        // initialization of popups
-        $.HSCore.components.HSPopup.init('.js-fancybox');
-
-        // initialization of go to
-        $.HSCore.components.HSGoTo.init('.js-go-to');
-      });
-    </script>
-  </body>
-</html>

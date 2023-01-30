@@ -114,3 +114,7 @@
       </div>
 
       <!-- End Informasi/Berita -->
+
+      <?php 
+      include('footer.php')
+      ?>
