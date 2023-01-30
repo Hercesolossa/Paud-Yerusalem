@@ -177,3 +177,6 @@
       <!-- End foto -->
 
     
+      <?php 
+          include('footer.php')
+      ?>
